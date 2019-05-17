@@ -59,17 +59,29 @@ body {
 
 
 /*===Portfolio Section=====*/
+.padding {
+    padding: 2rem 0;
+}
+
+.col-md-6 {
+    display: flex;
+}
 
 
 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row{
+float:right}
+}
 
+.column{
+    float: right;
+}
 
-
-
-
-
-
-
+#content h3{
+    color: darkred;
+    font-size: 65px;
+}
 
 
 
