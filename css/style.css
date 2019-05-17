@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:700');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Noto', sans-serif;
+    color: #505962
+}
+
+.offset: before{
+height: 62px;
+margin-top: -62px;
+content:"";
+display: block;
+}
+
+[class*="col-"]{
+    padding: 1rem;
+}
+
+/*=======NAVIGATION========*/
+.navbar{
+    text-transform: uppercase;
+    background-color: black;
+    font-size: 18px;
+   padding: 15px; 5px;
+    font weight: 700;
+    letter-spacing: 5px;
+}
+
+
+.navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+color: #000FFF;
+}
+
+body {
+    background-image: url("../image/space.jpg");
+}
+
+
+
+#content h1 {
+    font-size: 42px;
+    line-height: 65px;
+    color: darkred;
+}
+
+#content p {
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+
+
+
+
+/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
